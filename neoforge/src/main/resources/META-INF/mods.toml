@@ -1,0 +1,10 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="kairosplit"
+version="${file_version}"
+displayName="Kairosplit"
+description="Divergent Timelines Mod"
+authors="YourName"

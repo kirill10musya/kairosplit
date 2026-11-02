@@ -1,0 +1,8 @@
+plugins { id "com.github.johnrengelman.shadow" version "8.1.1" }
+architecture { neoforge() }
+configurations { common; shadowCommon; compileClasspath.extendsFrom common; runtimeClasspath.extendsFrom common }
+dependencies {
+    neoForge "net.neoforged:neoforge:${rootProject.neoforge_version}"
+    common project(path: ":common", configuration: "namedElements")
+    shadowCommon project(path: ":common", configuration: "transformProductionNeoForge")
+}
