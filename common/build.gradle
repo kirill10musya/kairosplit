@@ -1,0 +1,6 @@
+architecture {
+    common(rootProject.mod_id)
+}
+dependencies {
+    // Здесь в будущем будут общие библиотеки
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "kairosplit",
+  "version": "${version}",
+  "name": "Kairosplit",
+  "description": "Divergent Timelines Mod",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [ "com.kairosplit.fabric.KairosplitFabric" ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.20.1"
+  }
+}
